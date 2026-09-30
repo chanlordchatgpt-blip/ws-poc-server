@@ -3,7 +3,7 @@ import requests
 # ─── Configuration ────────────────────────────────────────────
 # Replace these with your actual values
 API_KEY      = "sk-l2_hig63a8xfXfhC1b1HzA"
-LLM_ENDPOINT = "https://openai.generative.engine.capgemini.com/v1"  # e.g. https://api.openai.com/v1/chat/completions
+LLM_ENDPOINT = "https://openai.generative.engine.capgemini.com/v1/chat/completions"  # e.g. https://api.openai.com/v1/chat/completions
 MODEL        = "openai.gpt-4o"               # or whichever model your company engine uses
 
 SYSTEM_PROMPT = "You are a helpful assistant."
